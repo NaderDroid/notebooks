@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>show files with less&amp;more</string>
+  <key>nodeid</key><string>f9802e46-7363-44c4-93a5-120a7585c996</string>
+  <key>modified_time</key><integer>1600092676</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1600092569</integer>
+  <key>order</key><integer>5</integer>
+</dict>
+</node>

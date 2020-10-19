@@ -1,0 +1,13 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Spoof mac address</title>
+</head><body>To spoof your MAC address, simply use the ifconfig command’s down<br/>
+option to take down the interface (eth0 in this case). Then enter the<br/>
+ifconfig command followed by the interface name (hw for hardware, ether<br/>
+for Ethernet) and the new spoofed MAC address. Finally, bring the interface back up with the up option for the change to take place. Here’s an<br/>
+example:<br/>
+kali &gt;ifconfig eth0 down<br/>
+kali &gt;ifconfig eth0 hw ether 00:11:22:33:44:55<br/>
+kali &gt;ifconfig eth0 up</body></html>

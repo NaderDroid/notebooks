@@ -1,0 +1,14 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>rouge of dhcp</title>
+</head><body>in this episode we disscus the main issues in dhcp connection and how to dignose it to solve dhcp connection issues<br/>
+<br/>
+- if no connection but you see weird wack 16 ip address then its a APIPA which is Automatic Private IP Address and its the fall back ip address if the dhcp client failed to acquire ip address from the dhcp server. it usually <b>starts with 169.254</b><br/>
+<br/>
+===<br/>
+- if u get APIPA address, make sure you are connected to a dhcp server<br/>
+- if you are connected to dhcp server and still get error, make sure that your dchp server is configured properly<br/>
+- if you get ip address other than your network id, you may have `Rouge DHCP Server`. which is baiscally you are getting a response to the dhcp client from other than the intended dhcp server.<br/>
+</body></html>

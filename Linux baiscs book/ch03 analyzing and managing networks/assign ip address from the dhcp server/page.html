@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Assign ip address from the DHCP server</title>
+</head><body>To get access to the internet you need a DHCP assigned ip address and this is done automatically using the dhcp server in linux<br/>
+<br/>
+to get a new ip you simply need to repoot the system so the process dhcpd would start over and assign new address to the NIC<br/>
+<br/>
+however, this can be done without restarting the machine:<br/>
+<br/>
+just you need to call the dhcp process and a new ip will be assigned, the command to call the dhcpd is:<br/>
+<br/>
+dhclient eth0<br/>
+<br/>
+</body></html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>manage processes</title>
+</head><body>To manage process we use the command `nice`. <br/>
+<br/>
+- nice takes a number which reflect how nice you are to others. for example, if you use high number means the priority goes down and you are nice to other processes. If using a low number that means you are not nice in sharing the resources with other processes. however the priority goes up.<br/>
+<br/>
+- the range of nice numbers from -20 to +19<br/>
+<br/>
+ex: nice -n -10 &lt;process name&gt;<br/>
+<br/>
+==== change the priority of a running process =====<br/>
+<br/>
+to change the priority use the command `renice`<br/>
+<br/>
+ex: renice 16 &lt;process ID&gt;<br/>
+</body></html>
