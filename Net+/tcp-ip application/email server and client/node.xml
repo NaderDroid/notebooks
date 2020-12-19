@@ -2,13 +2,12 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><false/>
-  <key>title</key><string>Eathernet baiscs</string>
-  <key>nodeid</key><string>769df8d9-09db-4452-9fe7-fd6f4584b453</string>
-  <key>modified_time</key><integer>1600009633</integer>
+  <key>title</key><string>Email server and client</string>
+  <key>nodeid</key><string>eef89e02-35fc-408c-953d-ff11ac448e84</string>
+  <key>modified_time</key><integer>1608272214</integer>
   <key>version</key><integer>6</integer>
   <key>content_type</key><string>text/xhtml+xml</string>
-  <key>created_time</key><integer>1600009633</integer>
+  <key>created_time</key><integer>1608271545</integer>
   <key>info_sort_dir</key><integer>1</integer>
   <key>order</key><integer>7</integer>
   <key>info_sort</key><string>order</string>

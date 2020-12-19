@@ -2,7 +2,7 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><true/>
+  <key>expanded</key><false/>
   <key>title</key><string>installing a physical network</string>
   <key>nodeid</key><string>1e03e9a4-3c8a-4bd8-a0d4-e0b6caec7721</string>
   <key>modified_time</key><integer>1600206088</integer>

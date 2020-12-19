@@ -2,14 +2,14 @@
 <node>
 <version>6</version>
 <dict>
-  <key>title</key><string>web server</string>
-  <key>nodeid</key><string>10694ef5-0d42-47d9-83df-f17b9689d4fc</string>
-  <key>modified_time</key><integer>1605959869</integer>
+  <key>title</key><string>Telnet and SSH</string>
+  <key>nodeid</key><string>74bf9c3e-6d01-44cd-8373-970170b94b89</string>
+  <key>modified_time</key><integer>1608274421</integer>
   <key>version</key><integer>6</integer>
   <key>content_type</key><string>text/xhtml+xml</string>
-  <key>created_time</key><integer>1605959720</integer>
+  <key>created_time</key><integer>1608273787</integer>
   <key>info_sort_dir</key><integer>1</integer>
-  <key>order</key><integer>5</integer>
+  <key>order</key><integer>9</integer>
   <key>info_sort</key><string>order</string>
 </dict>
 </node>

@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Secure emails</title>
+</head><body>Confusing topic but i will try to sum up the important points here<br/>
+<br/>
+1- email services was not intended to be secure from old days<br/>
+2- people started to think about securing their emails<br/>
+3- TLS was added as a layer to the traditional smtp pop3 and imap protocols<br/>
+4- this was not very effeicint for different reasons the main reason is that it used to start the connection in unencrypted state and then switch to the encrypted designated port. This could be easly broken with man in the middle attack and we started to think about different ways<br/>
+5- StartTLS comes in and combines all ports into the port number 465 that was changed later because it used to confuse the mail server as it was supporting the same port for both TLS and StartTLS<br/>
+6- StartTLS moved to port 587 as its default port on the tcp protocol<br/>
+<br/>
+=== review <br/>
+<br/>
+- smtp pop3 and imap are unencrypted<br/>
+<br/>
+- the STARTTLS extension uses only port 587 for encrypted communication<br/>
+<br/>
+</body></html>

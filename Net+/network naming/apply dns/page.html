@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Apply DNS</title>
+</head><body>This is heavy topic and here I am going to summerize the lecture<br/>
+<br/>
+- there are two dns software in use today 1- bind 2- microsoft dns server<br/>
+<br/>
+- interior dns is used to connect hosts in your home or company and usually ends with local, home or lan tld<br/>
+<br/>
+- the term 'authoritative dns' means that this server is able to resolve FQDN to ip address on that TLD<br/>
+<br/>
+- the resolution process can be done with the help of whats known as 'lookup zones' records that holds information of different hosts on that particular dns server<br/>
+<br/>
+- dns can be redundent to increase availability however there must be one SOA (start of autority) for each TLD<br/>
+<br/>
+- CName (Canonical name) is an alias that we make to point to a particular host or ip<br/>
+<br/>
+- when sending mails the mail client resolves the ip address of the mail server using the MX record (mail exchange) on the dns server to accuire and deliver the mail to its destination<br/>
+<br/>
+- reverse lookup zone is used to resolve ip address to FQDN and its used to reduce spams on mail servers<br/>
+<br/>
+- SRV records are used mainly for services like voip and sip protocol<br/>
+<br/>
+- TXT record was used for clarification purposes however nowadays its very important especially in the anti-spam world<br/>
+<br/>
+<br/>
+=== review<br/>
+<br/>
+- CName are used to make alias of hosts on the dns<br/>
+<br/>
+- reverse lookup zone is used to translate ip address to FQDN and mainly used by mail servers<br/>
+<br/>
+- TXT records, DKMI and SPF are used mainly to reduce email spams</body></html>
